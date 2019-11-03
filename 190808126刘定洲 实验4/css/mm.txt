@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+h1{font-family:楷体;text-align:center;font-size:40px;color:white;}
+h2{font-family:楷体;text-align:center;font-size:40px;color:black;}
+p{font-family:宋体;text-align:center;font-size:36px;texe-decoration:underline;}
+a:hover{color:#00dd00;}
+a{color:#dd0000}
+body,li,ul{list-style:none}
+body{text-align:center;font-size:16px}
+body{background-color:black;}
+ul#works{width:1260px;height:250px;margin:100px auto;}
+li#works{display:inline-block; width:216px; height:300px; padding-top:20px; padding-left:20px; background-color:white;}
+img#works{width:150px; margin-center:60px;height:160px;}
+li#oy{width:370px; height:690px; margin-left:50px; margin-bottom:10px; padding:10px; border:1px solid #3F9; display:inline-block;}
+/*行内不会溢出*/
+h3{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:32px;}
+h3{font-size:20px; color:white;}
+li#oy p{line-height:25px;}
+li.movie span{font-weight:bold; color:#EF5584;}
+li.hot span{margin-right:10px; color:red;}
